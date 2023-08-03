@@ -1,9 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: blue;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  font-family: 'Arvo', Arial, sans-serif;
+}
   
   header {
     display: flex;
@@ -37,12 +37,18 @@ body {
     text-align: center;
     padding: 50px 0;
   }
-  
-  .slogan-container h1 {
+  .slogan-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+  }
+
+  .Text h1 {
     font-size: 36px;
   }
   
-  .slogan-container p {
+  .Text p {
     font-size: 18px;
     color: #777;
   }
@@ -50,6 +56,7 @@ body {
   .slogan-container img {
     max-width: 200px;
     margin-top: 20px;
+    margin-left: 20px;
   }
   
   footer {
